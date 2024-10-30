@@ -3,6 +3,7 @@
     "name": "SimplerPrettier",
     "organization": "notnotJake",
     "description": "Simply runs prettier when files are saved or via menu bar command",
+    "repository": "https://github.com/notnotjake/nova-simpler-prettier/issues",
     "bugs": "mailto:jake+novasimplerprettier@notnotjake.com",
     "version": "0.1",
     "categories": ["commands", "formatters"],
