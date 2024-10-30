@@ -1,0 +1,34 @@
+{
+    "identifier": "notnotjake.prettier-simpler",
+    "name": "SimplerPrettier",
+    "organization": "notnotJake",
+    "description": "Simply runs prettier when files are saved or via menu bar command",
+    "bugs": "mailto:jake+novasimplerprettier@notnotjake.com",
+    "version": "0.1",
+    "categories": ["commands", "formatters"],
+    "main": "main.js",
+    "activationEvents": [
+        "onWorkspaceContains:package.json"
+    ],
+    "entitlements": {
+        "filesystem": "readwrite", 
+        "process": true
+    },
+    "commands": {
+        "editor": [
+            {
+                "title": "Format Document",
+                "command": "formatDocument",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Format Project",
+                "command": "formatProject"
+            },
+            {
+                "title": "Save without Formatting",
+                "command": "saveWithoutFormat"
+            }
+        ]
+    }
+}
