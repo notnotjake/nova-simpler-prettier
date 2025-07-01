@@ -5,3 +5,5 @@ It runs prettier just as you would from a terminal so it will support any config
 Requires that you have node as well as npx, bun or pnpm installed.
 
 Only available when you have package.json and a prettier configuration file in your project.
+
+*Nova Team: 483216*
